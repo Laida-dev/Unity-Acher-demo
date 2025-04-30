@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f25e55b529100541833de105dfbc0a5, type: 3}
+  m_Name: SkillIcon
+  m_EditorClassIdentifier: 
+  iconList:
+  - name: FrontArrow
+    sprite: {fileID: 21300000, guid: c62882e7fc08fcf4a8b54492a65bc792, type: 3}
+  - name: DiagonalArrow
+    sprite: {fileID: 21300000, guid: 5e6eccb75ab022d41b3019f0b9dd17e3, type: 3}
+  - name: TrackingEye
+    sprite: {fileID: 21300000, guid: 0032234d7b8fed940a108ca69f3ca2c1, type: 3}
+  - name: BounceArrow
+    sprite: {fileID: 21300000, guid: 07cdaf254163fe84d84f885a06583a02, type: 3}
+  - name: Pierce
+    sprite: {fileID: 21300000, guid: 8faf69e17f64a134796672ec16304ad4, type: 3}

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394ddea33f7e944449fc65ac4e0e8e8f, type: 3}
+  m_Name: StageData
+  m_EditorClassIdentifier: 
+  waves:
+  - spawnList:
+    - pos: {x: 3, y: 0, z: 4}
+      monster: {fileID: 7973606806337847752, guid: a3edf0da86dfa91468c220d1f30b6b4e, type: 3}
+    - pos: {x: -3, y: 0, z: 4}
+      monster: {fileID: 7973606806337847752, guid: a3edf0da86dfa91468c220d1f30b6b4e, type: 3}
+    - pos: {x: 6, y: 0, z: 2}
+      monster: {fileID: 7973606806337847752, guid: a3edf0da86dfa91468c220d1f30b6b4e, type: 3}
+    - pos: {x: -6, y: 0, z: 2}
+      monster: {fileID: 7973606806337847752, guid: a3edf0da86dfa91468c220d1f30b6b4e, type: 3}
+    isBossWave: 0
+  - spawnList:
+    - pos: {x: 0, y: 0, z: 3}
+      monster: {fileID: 7973606806337847752, guid: a3edf0da86dfa91468c220d1f30b6b4e, type: 3}
+    - pos: {x: 3, y: 0, z: 3}
+      monster: {fileID: 7973606806337847752, guid: a3edf0da86dfa91468c220d1f30b6b4e, type: 3}
+    - pos: {x: -3, y: 0, z: 3}
+      monster: {fileID: 7973606806337847752, guid: a3edf0da86dfa91468c220d1f30b6b4e, type: 3}
+    - pos: {x: 4, y: 0, z: -3}
+      monster: {fileID: 7973606806337847752, guid: a3edf0da86dfa91468c220d1f30b6b4e, type: 3}
+    - pos: {x: -4, y: 0, z: -3}
+      monster: {fileID: 7973606806337847752, guid: a3edf0da86dfa91468c220d1f30b6b4e, type: 3}
+    isBossWave: 0
+  - spawnList:
+    - pos: {x: 0, y: 0, z: 3}
+      monster: {fileID: 7973606806337847752, guid: a3edf0da86dfa91468c220d1f30b6b4e, type: 3}
+    - pos: {x: 3, y: 0, z: 6}
+      monster: {fileID: 7973606806337847752, guid: a3edf0da86dfa91468c220d1f30b6b4e, type: 3}
+    - pos: {x: -3, y: 0, z: 6}
+      monster: {fileID: 7973606806337847752, guid: a3edf0da86dfa91468c220d1f30b6b4e, type: 3}
+    - pos: {x: 6, y: 0, z: 3}
+      monster: {fileID: 7973606806337847752, guid: a3edf0da86dfa91468c220d1f30b6b4e, type: 3}
+    - pos: {x: 6, y: 0, z: -3}
+      monster: {fileID: 7973606806337847752, guid: a3edf0da86dfa91468c220d1f30b6b4e, type: 3}
+    - pos: {x: -6, y: 0, z: 3}
+      monster: {fileID: 7973606806337847752, guid: a3edf0da86dfa91468c220d1f30b6b4e, type: 3}
+    - pos: {x: -6, y: 0, z: -3}
+      monster: {fileID: 7973606806337847752, guid: a3edf0da86dfa91468c220d1f30b6b4e, type: 3}
+    isBossWave: 0
+  - spawnList:
+    - pos: {x: 3, y: 0, z: 3}
+      monster: {fileID: 7973606806337847752, guid: a3edf0da86dfa91468c220d1f30b6b4e, type: 3}
+    - pos: {x: -3, y: 0, z: 3}
+      monster: {fileID: 7973606806337847752, guid: a3edf0da86dfa91468c220d1f30b6b4e, type: 3}
+    - pos: {x: 0, y: 0, z: 6}
+      monster: {fileID: 7973606806337847752, guid: 5b317d779416ea44b932a2b8fdcd9ad0, type: 3}
+    isBossWave: 1
